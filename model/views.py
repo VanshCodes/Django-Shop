@@ -1,5 +1,4 @@
 from django.http.response import HttpResponse
-from rest_framework.mixins import RetrieveModelMixin
 from model.serializers import CustomerSerializer
 from .models import Customer
 from rest_framework import generics
